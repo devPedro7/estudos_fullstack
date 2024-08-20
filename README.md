@@ -1,1 +1,1 @@
-<h1 align="center"># ESTE É UM REPOSITÓRIO DE ESTUDOS FULLSTACK</h1>
+<h1 align="center">REPOSITÓRIO DE ESTUDOS FULLSTACK</h1>
