@@ -1,0 +1,62 @@
+FLEXBOX - O FLEXBOX AJUDA NA CRIAÇÃO DE LAYOUTS E NO SEU POSICIONAMENTO DENTRO DO PROJETO.
+ELE ALINHA EM LINHAS E COLUNAS.
+
+LINHA - UM AO LADO DO OUTRO;
+COLUNA - UM DEBAIXO DO OUTRO;
+
+NÓS SEMPRE HABILITAMOS O FLEXBOX NO CONTAINER - NA DIV QUE ENVOLVE OS ELEMENTOS FILHOS.
+
+POR PADRÃO O FLEXBOX VEM EM LINHA.
+
+PARA ATIVAR O FLEXBOX, NÓS CHAMAMOS: display: flex
+
+PROPIEDADES DE LINHAS E COLUNAS: flex-direction. (APLICAMOS SEMPRE NO CONTAINER PAI)
+
+1º flex-direction: row (linha);
+2º flex-direction: collumn (coluna);
+
+-------------------------------------------------------------------------------------------
+
+APRENDENDO A PROPIEDADE FLEX.
+
+O FLEX FAZ OS ITEN OCUPAREM ESPCAÇOS IGUAIS OU MAIOR QUE OS OUTROS - (SEMPRE NOS FILHOS).
+
+UTILIZANDO A PROPIEDADE =  flex: 1 (O ELEMENTO OCUPA A LARGURA TODA QUE ELE PODE DA TELA E
+                                    DEIXA O TAMANHO PADRÃO PARA TODOS OS OUTROS ELEMENTOS.)
+
+--------------------------------------------------------------------------------------------
+
+FLEX-ORDER - AJUDA A ORGANIZAR OS ITENS E TROCAR A ORDEM DELES - (SEMPRE NOS FILHOS).
+
+PARA UTILIZAR A PROPIEDADE ORDER - order: E INDICADMOS A ORDEM QUE QUEREMOS QUE ELE FIQUE 
+                                           EM NÚMERO.
+
+--------------------------------------------------------------------------------------------
+
+JUSTIFY-CONTENT - AJUDA NO ALINHAMENTO DOS ITENS, FAZ O QUE MUITAS VEZES O POSITION NÃO FAZ.
+
+SEMPRE APLICADO NO ELEMENTO PAI QUE POSSUI O display: flex.
+
+MEXE COM O EIXO HORIZONTAL.
+
+ELE POSSUI PROPIEDADE DE ALINHAMENTO: DEPENDENDO DO flex-direction, ELE COMPORTA DIFERENTE
+
+FLEX-DIRECTION: ROW
+
+1º justify-content: flex-start (padrão);
+2º justify-content: flex-end alinha no fim da linha);
+3º justify-content: center (posiciona no centro da linha);
+
+ALÉM DISSO ELE POSSUI PROPIEDADE DE ALINHAMENTO ENTRE OS ITENS: 
+1º justify-content: space-between (espaçamento igual entre os itens);
+2º justify-content: space-around (espaçamento igual e na extremidade dos elementos);
+
+--------------------------------------------------------------------------------------------
+
+ALIGN-ITEMNS - AJUDA NO ALINHAMENTO DOS ITENS.
+
+MEXE COM O EIXO VERTICAL
+
+DEPENDENDO DO flex-direction ELE TEM O COMPORTAMENTO DIFERENTE
+
+ELE POSSUI AS MESMAS PROPIEDADES DO justify-content DE ALINHAMENTO, MENOS OS DE ESPAÇAMENTO.
